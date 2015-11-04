@@ -1,0 +1,54 @@
+div.autocomplete {
+  position: absolute;
+  width: 500px;
+  background-color: white;
+  border: 1px solid #888;
+  margin: 0px;
+  padding: 0px;
+font-weight:normal; 
+}
+
+div.autocomplete ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  max-height: 20em;
+  overflow: auto;
+}
+
+div.autocomplete ul li.selected {
+    background-color: #ffb;
+}
+
+div.autocomplete ul li {
+  list-style-type:none;
+  display: block;
+  margin: 0;
+  padding: 2px;
+  cursor: pointer;
+}
+
+div.autocomplete ul li span.informal {
+    color: grey;
+}
+
+
+
+#truc {
+ padding:3px;
+ border:1px solid #0;
+ border-radius:5px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ width:200px;
+ }
+ 
+ 
+input {
+ border:0px solid;
+ background-color:transparent;
+ width:250px;
+	font-family:Arial; 
+	font-size:10pt; 
+	font-weight:bold; 
+ }
+ 

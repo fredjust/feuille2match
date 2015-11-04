@@ -1,0 +1,115 @@
+﻿/* Equipe PV */
+
+.Titre 
+{
+	font-family:Arial Black; 
+	font-size:18pt; 
+	margin-bottom:4pt; 
+	margin-top:4pt; 
+	letter-spacing:6pt
+}
+
+.Infos 
+{
+	font-family:Arial; 
+	font-size:16;
+	font-weight:bold;
+	margin-bottom:2pt; 
+	margin-top:2pt; 
+	letter-spacing:2pt
+}
+
+.Clubs 
+{
+	font-family:Arial; 
+	font-size:10pt; 
+	font-weight:bold; 
+	margin-bottom:0pt; 
+	margin-top:0pt
+}
+
+.JoueursTitre
+{
+	font-family:Arial; 
+	font-size:10pt; 
+	font-weight:bold; 
+	margin-bottom:0pt; 
+	margin-top:0pt
+}
+
+.Joueurs
+{
+	font-family:Arial; 
+	font-size:10pt; 
+	font-weight:normal; 
+	margin-bottom:0pt; 
+	margin-top:0pt
+}
+
+.Remarque
+{
+	font-family:Arial; 
+	font-size:8pt; 
+	font-weight:normal; 
+	margin-bottom:0pt; 
+	margin-top:0pt
+}
+
+td.cadre
+{
+	font-family:Arial; 
+	font-size:10pt; 
+	font-weight:bold; 
+ border-style:solid;
+ border-color:Black;
+ border-width:2px;
+ padding:2px;
+ margin:0px;
+}
+
+.select1
+{
+	width:400px;
+	overflow:hidden;	
+}
+
+.select1 select{
+	width:420px;	
+	outline : none;
+	border: none;
+	font-family:Arial; 
+	font-size:16;
+	font-weight:bold;
+	margin-bottom:2pt; 
+	margin-top:2pt; 
+	letter-spacing:2pt;
+	cursor : pointer;	
+	background:#FFFFFF url(image/blanc.png) no-repeat center right;
+}
+
+.select2 select{
+	
+	outline : none;
+	border: none;
+	font-family:Arial; 
+	font-size:16;
+	font-weight:bold;
+	margin-bottom:2pt; 
+	margin-top:2pt; 
+	letter-spacing:2pt;
+	cursor : pointer;	
+	
+}
+
+
+a
+{
+	text-decoration: none;
+	color: black;	
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
