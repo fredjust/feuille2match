@@ -31,7 +31,7 @@ enregistrer le fichier (en CSV séparateur point virgule)
 zipper ce fichier  
   
 **DANS PHPMYADMIN**  
-Créer une table joueurTEMPO (en exportant la structure de joueur)  
+Créer une table joueurTEMPO (en copiant la structure de joueur)  
 supprimer la colonne elo_s  
 importer le fichier CSV (zippé) utf8 CSV  
 ajouter une colonne elo_s après elo (format INT) default = 0  
