@@ -38,7 +38,8 @@ ajouter une colonne elo_s après elo (format INT) default = 0
 Récupérer les elo_s de la table joueur  
 UPDATE joueurTEMPO,joueur SET joueurTEMPO.elo_s=joueur.elo_s WHERE joueur.NrFFE=joueurTEMPO.NrFFE  
 Attention 245 sec sans index ! 0.17 sec avec index !  
-Les Ref ne correspondent pas d’une base papi a une autre ce n’est pas l’identifiant unique d’un joueur  
+Ajouter une colonne dep varchar 2 default NULL  
+UPDATE joueurTEMPO j,club c SET j.dep=c.dep WHERE j.ClubRef=c.Ref  
 Renommer la table joueur en joueurOLD  
 Renommer la table joueurTEMPO en joueur  
 Supprimer la table joueurOLD   
@@ -60,3 +61,8 @@ UPDATE clubTEMPO SET dep='99' WHERE dep='9E'
 UPDATE clubTEMPO SET dep='99' WHERE dep='9F'  
 Rajouter une maj de type DATE  
   
+
+
+
+
+
