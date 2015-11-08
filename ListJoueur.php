@@ -55,13 +55,12 @@ if ($dep=="") { header("Location: index.php");  };
 
 <?php
 
-if ($_SESSION['categ']=="Adultes") 
-{
-$query="SELECT * FROM joueur WHERE ClubRef='$idc' ORDER BY Elo DESC";	
-};
 if ($_SESSION['categ']=="Jeunes") {
 	$query="SELECT * FROM joueur WHERE ClubRef='$idc' AND (NeLe>='2000-01-01') ORDER BY NeLe";	
+} else {
+	$query="SELECT * FROM joueur WHERE ClubRef='$idc' ORDER BY Elo DESC";	
 };
+
 
 $ressource=mysqli_query ($link,$query); 
 
