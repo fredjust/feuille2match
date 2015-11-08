@@ -20,7 +20,7 @@ if($debut!="")
 		echo("<li>".$row["Nom"]." ".$row["Prenom"]."
 		<span class='informal' style='display:none'> #n#".$row["Nom"]." ".$row["Prenom"]."#n#</span> 
 		<span class='informal' style='display:none'> #i#".$row["Ref"]."#i#</span> 
-		<span class='informal' style='display:none'> #e#".$row["Elo"]."#e#</span> 
+		<span class='informal' style='display:none'> #e#".$row["elo_s"]."#e#</span> 
 		<span class='informal' style='display:none'> #f#".$row["NrFFE"]."#f#</span>
 		<span class='informal' style='display:none'> #d#".$row["NeLe"]."#d#</span>
 		</li>\n");
