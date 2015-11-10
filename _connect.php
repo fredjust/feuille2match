@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$bdd = "cvoe";
+$bdd = "cvoebis";
 
 $link = mysqli_connect($host, $user, $pass, $bdd ) ;
 ?>
