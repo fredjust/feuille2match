@@ -65,7 +65,28 @@ if (!isset($_SESSION['categ'])) {
     <div style="width: 700px; height: 600px;" id="francemap"></div>
 	</td>
 	<td>
-	Aide :
+	<style type="text/css"> 
+#outerdiv 
+{ 
+width:900px; 
+height:600px; 
+overflow:hidden; 
+position:relative; 
+} 
+
+#inneriframe 
+{ 
+position:absolute; 
+top:-250px; 
+left:-250px; 
+width:1000px; 
+height:800px; 
+} 
+</style> 
+<div id='outerdiv'>
+<iframe src="http://www.cpe95.org/spip.php?article962" frameborder=0 id='inneriframe' scrolling=yes>
+</iframe>
+</div>
 	</td>
 	</tr>
 	</table>
