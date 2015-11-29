@@ -60,8 +60,8 @@ ATTENTION la feuille n'est pas sauvegardée sur le serveur !<br>
 Si vous souhaitez la retrouver, vous devez conserver ce lien (ou même l'envoyer).<br>
 Il permet d'afficher une feuille de match contenant les infos des joueurs sélectionnés.<br>
 <br>
-<input onClick="select();" type="text" value="http://www.echecs95.com/feuille2match/<?php echo $_SESSION['cat']?>.php<?=$params?>" style="width:500px;"/> 
- <A href="http://www.echecs95.com/feuille2match/<?php echo $_SESSION['cat']?>.php<?=$params?>"> Tester ce lien</a>
+<input onClick="select();" type="text" value="http://www.echecs95.com/feuille2match/<?php echo $_SESSION['categ']?>.php<?=$params?>" style="width:500px;"/> 
+ <A href="http://www.echecs95.com/feuille2match/<?php echo $_SESSION['categ']?>.php<?=$params?>"> Tester ce lien</a>
 <br>
 <br>
 <i>Vous pouvez copier le texte en cliquant dans la zone puis CTRL+C</i>
