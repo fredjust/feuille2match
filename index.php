@@ -91,8 +91,7 @@ height:800px;
 	</tr>
 	</table>
     <a href="ListClubDep.php?Dep=99"><i>Papeete et Nouméa</i></a> <br />
-    Date du fichier papi utilisé : 13/11/2015 (les joueurs non licenciés à cette
-    date ne sont pas affichables)<br />
+    Date du fichier papi utilisé : 07/01/2016 ELO DE JANVIER<br />
     <a href="historique.html"><i>Version 2.5 &beta; du 24/10/2015</i></a><br />
   </body>
 </html>

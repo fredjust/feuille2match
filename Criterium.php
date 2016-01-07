@@ -276,7 +276,7 @@ for ($i=1; $i<=$nbj; $i++)
   <tr height="30">
     <td width="30" align="center" class="cadre">
 	<!-- numéro de table -->
-	<p class="Clubs"><A class="nolien" HREF="Feuille.php?c=<?php echo $parametre?>&nbj=<?php if ($i==$nbj) {echo "8";} else {echo $i;} ?>" TITLE="Modifier le nombre de table"><?php echo $i?> <?php echo $couleur[$i % 2]?></a></p></td>
+	<p class="Clubs"><A class="nolien" HREF="Criterium.php?c=<?php echo $parametre?>&nbj=<?php if ($i==$nbj) {echo "8";} else {echo $i;} ?>" TITLE="Modifier le nombre de table"><?php echo $i?> <?php echo $couleur[$i % 2]?></a></p></td>
     <td width="270" align="left" class="cadre">
 	<!-- nom prenom du joueur blanc -->
 	<input type="text" id="joueur<?php echo $i?>" name="joueur<?php echo $i?>" tabindex="<?php echo $i?>0" value="<?php echo(trim($rowblanc["Nom"]." ".$rowblanc["Prenom"])) ?>" AUTOCOMPLETE=OFF/>
